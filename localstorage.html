@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="localstorage.css" />
+    <title>Javascript localStorage</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>localStorage in JavaScript</h1>
+      <button onclick="addToCounter()" type="button">
+        Increase The Score By 1
+      </button>
+      <button onclick="subtractFromCounter()" type="button">
+        Decrease The Score By 1
+      </button>
+      <button onclick="multiplyCounter()" type="button">
+        Multiply The Score By 10
+      </button>
+      <button onclick="clearCounter()" type="button">
+        Clear The localStorage
+      </button>
+      <p>Count:</p>
+      <p id="count"></p>
+    </div>
+    <script src="localstorage.js"></script>
+  </body>
+</html>
